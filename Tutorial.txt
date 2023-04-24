@@ -1,6 +1,8 @@
 Como primeiro passo, devemos criar o repositório no GitHub.
 
-Também temos que abrir um terminal e digitar git init. 
+Também temos que abrir um terminal e digitar git init.
+
+Depois precisamos navegar através do comando cd até onde entrar na pasta onde o repositório foi criado.
 
 Para adicionar um arquivo, ou mais, devemos digitar: git add nomedoarquivo . Ou então git add -a para adicionar todos arquivos.
 
