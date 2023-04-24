@@ -1,0 +1,9 @@
+Como primeiro passo, devemos criar o repositório no GitHub.
+
+Também temos que abrir um terminal e digitar git init. 
+
+Para adicionar um arquivo, ou mais, devemos digitar: git add nomedoarquivo . Ou então git add -a para adicionar todos arquivos.
+
+Depois de adicionados, devemos commitar eles, ou seja, salvá-los: git commit -m "escrever a mensagem resumo". 
+
+Depois de commitado, podemos enviar nosso código para o repositório através do comando git push nomedoarquivo ou então git push -a
