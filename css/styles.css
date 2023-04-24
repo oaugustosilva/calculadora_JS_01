@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+#calc {
+    width: 300px;
+    padding: .5em;
+    background-color: #c4c4c4;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+#calc h3{
+    font-size: .8em;
+    font-weight: 300;
+    color: #666;
+}
+
+#operations{
+    text-align: right;
+}
+
+#previous-operation{
+    color: #777;
+    padding: .2em;
+    overflow-wrap: break-word; /* serve para quebrar a linha quando o numero for muito grande*/
+    min-height: 1.6em;
+}
+
+#current-operation {
+    padding: .2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /*Com display GRID e os fr, criamos as colunas onde os botoes serão distribuidos */
+    gap: 3px; /*GAP de pixels entre os botoes */
+}
+
+#buttons-container button {
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 3em;
+    font-size: 1.1em;
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+
+#buttons-container .number {
+    background-color: #f3f3f3;
+}
+
+#buttons-container button:hover{
+    background-color: #bababa;
+    border-color: #999;
+}
+
+#buttons-container #equal-btn {
+    background-color: rgb(246, 183, 55);
+    grid-column: span 2;
+}
+
+#buttons-container #equal-btn:hover {
+    background-color: rgb(244, 169, 21);
+    border-color: #999;
+}
