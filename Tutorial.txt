@@ -9,3 +9,7 @@ Depois de adicionados, devemos commitar eles, ou seja, salvá-los: git commit -m
 Depois de commitado, podemos enviar nosso código para o repositório através do comando git push nomedoarquivo ou então git push -a
 
 Também temos o git pull, que serve para atualizar os arquivos na máquina de acordo com o que está upado no GitHub.
+
+Caso a gente queira copiar um repositório que está upado no GitHub, por exemplo, entramos para um time e precisamos baixar
+os arquivos... podemos utilizar o git clone https://........ Para conseguir o link do repositório, devemos ir na página dele,
+clicar em code (botão na direita) e copiar o código https dali.
