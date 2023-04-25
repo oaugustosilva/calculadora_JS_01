@@ -30,3 +30,5 @@ Porém, isso deve ser feito antes do COMMIT. Desta forma, é como se a modifica�
 
 Podemos ignorar arquivos do projeto ao upar para repositório. Devemos inserir um arquivo chamado .gitignore na raiz do projeto, e nele podemos inserir todos os arquivos
 que não devem entrar no versionamento, como arquivos gerados automaticamente ou arquivos com conteúdo sensível.
+Um ponto de atenção é que os arquivos primeiro precisam ser inseridos no gitignore para depois serem criados na pasta, pois o github já vai puxando automaticamente na working tree.
+No caso do exemplo, estou ignorando o arquivo d.txt e a pasta node_modules todos os arquivos, representados pelo *.
