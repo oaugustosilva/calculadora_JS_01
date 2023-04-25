@@ -27,3 +27,6 @@ Para renomear o arquivo, fazemos git mv caminho/nomedoarquivo.extensao caminho/n
 Caso a gente modifique um arquivo, e não queira que essa modificação seja upada no repositório, podemos usar o comando checkout caminho/nomedoarquivo.extensao
 Exemplo: modificamos um arquivo css, alterando a fonte de todos os parágrafos, porém, fizemos errado e desejamos retornar ao original, podemos utilizar o checkout.
 Porém, isso deve ser feito antes do COMMIT. Desta forma, é como se a modificação no arquivo css não tivesse sido feita.
+
+Podemos ignorar arquivos do projeto ao upar para repositório. Devemos inserir um arquivo chamado .gitignore na raiz do projeto, e nele podemos inserir todos os arquivos
+que não devem entrar no versionamento, como arquivos gerados automaticamente ou arquivos com conteúdo sensível.
