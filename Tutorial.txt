@@ -15,3 +15,5 @@ Também temos o git pull, que serve para atualizar os arquivos na máquina de ac
 Caso a gente queira copiar um repositório que está upado no GitHub, por exemplo, entramos para um time e precisamos baixar
 os arquivos... podemos utilizar o git clone https://........ Para conseguir o link do repositório, devemos ir na página dele,
 clicar em code (botão na direita) e copiar o código https dali.
+
+Para deletar um arquivo do MONITORAMENTO, utilizamos o comando git rm nomedoarquivo. Ele será excluido da pasta.
