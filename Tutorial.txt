@@ -22,3 +22,4 @@ Para saber o histórico de commits/modificações, podemos usar o comando git lo
 Para sair do log basta apertarmos q.
 
 Podemos mover ou renomear um arquivo através do comando git mv nomedoarquivo localnovo ...
+Para renomear o arquivo, fazemos git mv caminho/nomedoarquivo.extensao caminho/novonomedoarquivo.extensao
