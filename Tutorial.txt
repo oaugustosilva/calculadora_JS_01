@@ -17,3 +17,6 @@ os arquivos... podemos utilizar o git clone https://........ Para conseguir o li
 clicar em code (botão na direita) e copiar o código https dali.
 
 Para deletar um arquivo do MONITORAMENTO, utilizamos o comando git rm nomedoarquivo. Ele será excluido da pasta.
+
+Para saber o histórico de commits/modificações, podemos usar o comando git log. Ele vai imprimir na tela desde o commit mais recente até o primeiro dado.
+Para sair do log basta apertarmos q.
