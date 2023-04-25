@@ -32,3 +32,7 @@ Podemos ignorar arquivos do projeto ao upar para repositório. Devemos inserir u
 que não devem entrar no versionamento, como arquivos gerados automaticamente ou arquivos com conteúdo sensível.
 Um ponto de atenção é que os arquivos primeiro precisam ser inseridos no gitignore para depois serem criados na pasta, pois o github já vai puxando automaticamente na working tree.
 No caso do exemplo, estou ignorando o arquivo d.txt e a pasta node_modules todos os arquivos, representados pelo *.
+
+Tem o git reset, que serve para resetar TODAS as mudanças feitas no branch, inclusive as commitadas e pendentes. Geralmente é utilizado junto com a flag --hard.
+Tomar cuidado com esse comando, pois reseta todo trabalho feito. Porém, esse comando serve para resetar todas modificações feitas ANTES DO PUSH.
+O comando é git reset --hard branch . Exemplo: git reset --hard origin/master.
