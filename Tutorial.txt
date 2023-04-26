@@ -36,3 +36,14 @@ No caso do exemplo, estou ignorando o arquivo d.txt e a pasta node_modules todos
 Tem o git reset, que serve para resetar TODAS as mudanças feitas no branch, inclusive as commitadas e pendentes. Geralmente é utilizado junto com a flag --hard.
 Tomar cuidado com esse comando, pois reseta todo trabalho feito. Porém, esse comando serve para resetar todas modificações feitas ANTES DO PUSH.
 O comando é git reset --hard branch . Exemplo: git reset --hard origin/master.
+
+**************************************************************************************
+Branch é a forma que o git separa as versões dos projetos.
+Quando um projeto é criado, ele inicia na branch MASTER, estamos trabalhando nela até o momento.
+Geralmente, cada nova feature de um projeto fica em um branch separado.
+Após a finalização das alterações, os branchs são unidos para ter código-fonte final.
+
+Para visualizar os branchs utilizamos comando git branch.
+Para criar um branch novo, utilizamos comando git branch <nome>.
+Cuidar para sempre criar um novo branch em relação ao projeto consolidado, ou seja, ao master. Pois criando um branch derivando de outro branch, corremos risco
+de não utilizar a versão consolidada do projeto.
